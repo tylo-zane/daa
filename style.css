@@ -2,7 +2,68 @@
 
 /* CONTENT AREAS */
 
+body {
+    width: 66.6%;
+    margin: auto;
+}
 
+header {
+    margin-top: 4em;
+}
+
+header img {
+    width: 40%;
+}
+
+/* NODES */
+
+.node {
+    display: flex;
+    border-radius: 2em;
+    transition: 0.2s;
+}
+
+#flow .node {
+    background-color: #BCF8E3;
+}
+
+#flow .node:hover {
+    background-color: #A3F5E5;
+}
+
+#forms .node {
+    background-color: #AFAFDC;
+}
+
+#forms .node:hover {
+    background-color: #9C9CD3;
+}
+
+#accounts .node {
+    background-color: #EEB868;
+}
+
+#accounts .node:hover {
+    background-color: #EBA947;
+}
+
+#support .node {
+    background-color: #EFAAC4;
+}
+
+#support .node:hover {
+    background-color: #E887AC;
+}
+
+.check {
+    width: 25%;
+    border-radius: 2em 0 0 2em;
+    background-color:rgba(255,255,255,0.4)
+}
+
+.content {
+    margin-left: 1em;
+}
 
 /* TYPOGRAPHY */
 
@@ -11,7 +72,19 @@ p, h1, h2 {
     font-family: 'Roboto';
 }
 
+p {
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
 
 @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+        width: 90%;
+    }
 
 }
