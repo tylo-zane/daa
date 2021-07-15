@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* CONTENT AREAS */
+
+
+
+/* TYPOGRAPHY */
+
+p, h1, h2 {
+    color: #2F2504;
+    font-family: 'Roboto';
+}
+
+
+@media only screen and (max-width: 768px) {
+
+}
