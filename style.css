@@ -15,6 +15,13 @@ header img {
     width: 40%;
 }
 
+footer {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    font-size: 10pt;
+    text-align: right;
+}
+
 /* NODES */
 
 .node {
