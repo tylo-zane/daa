@@ -31,35 +31,35 @@ footer {
 }
 
 #flow .node {
-    background-color: #BCF8E3;
+    background-color: #FDF0D5;
 }
 
 #flow .node:hover {
-    background-color: #A3F5E5;
+    background-color: #FADB9E;
 }
 
 #forms .node {
-    background-color: #AFAFDC;
+    background-color: #E9DAD3;
 }
 
 #forms .node:hover {
-    background-color: #9C9CD3;
+    background-color: #D6BAAE;
 }
 
 #accounts .node {
-    background-color: #EEB868;
+    background-color: #DFEBDF;
 }
 
 #accounts .node:hover {
-    background-color: #EBA947;
+    background-color: #C0D8C0;
 }
 
 #support .node {
-    background-color: #EFAAC4;
+    background-color: #8ECCC9;
 }
 
 #support .node:hover {
-    background-color: #E887AC;
+    background-color: #64B9B5;
 }
 
 .check {
