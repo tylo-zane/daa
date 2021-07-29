@@ -65,12 +65,29 @@ footer {
 
 .img-back {
     width: 25%;
+    flex-shrink: 0;
     border-radius: 2em 0 0 2em;
     background-color:rgba(255,255,255,0.4)
 }
 
 .content {
     margin-left: 1em;
+}
+
+.check {
+    transition: 0.2s;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin: auto;
+    margin-right: 2em;
+    margin-left: 2em;
+    border-radius: 2em;
+    background-color:rgba(255,255,255,0.4)
+}
+
+.checked .check {
+    background-color: black;
 }
 
 /* TYPOGRAPHY */
@@ -88,8 +105,12 @@ h1, h2 {
     font-weight: 400;
 }
 
+.node a {
+    font-size: 0.75em;
+}
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 992px) {
     /* For mobile phones: */
     body {
         width: 90%;
