@@ -86,8 +86,16 @@ footer {
     background-color:rgba(255,255,255,0.4)
 }
 
-.checked .check {
-    background-color: black;
+.check img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+
+.checked .check img {
+    opacity: 1;
 }
 
 /* TYPOGRAPHY */
