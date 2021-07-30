@@ -15,10 +15,17 @@
           }
     }
 
+   /**
+    * Toggles the 'checked' class of the given element.
+    */
     function toggleCheck() {
         this.classList.toggle("checked");
     }
 
+   /**
+    * Appends a checkmark image to a DOM element.
+    * @param {Object} box - the DOM Element to add onto 
+    */
     function addCheck(box) {
         let image = document.createElement("img");
         image.src = "img/check.png";
