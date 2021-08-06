@@ -24,7 +24,7 @@
 
    /**
     * Appends a checkmark image to a DOM element.
-    * @param {Object} box - the DOM Element to add onto 
+    * @param {Object} box - the DOM element to add onto 
     */
     function addCheck(box) {
         let image = document.createElement("img");

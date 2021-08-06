@@ -67,7 +67,16 @@ footer {
     width: 25%;
     flex-shrink: 0;
     border-radius: 2em 0 0 2em;
-    background-color:rgba(255,255,255,0.4)
+    background-color:rgba(255,255,255,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-back img {
+    max-width: 66%;
+    max-height: 66%;
+    align-self: center;
 }
 
 .content {
@@ -122,6 +131,16 @@ h1, h2 {
     /* For mobile phones: */
     body {
         width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* For small resolution phones: */
+    .check {
+        width: 0;
+        margin: 0;
+        margin-right: 2em;
     }
 
 }
