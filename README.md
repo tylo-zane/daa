@@ -7,8 +7,11 @@ Anxiety is a common problem. Over 19.1 percent of adults in the U.S. are diagnos
 DAA is divided into four design categories of focus: 
 ### Flow  
 How to properly guide the user's eyes as they navigate your interface
-2. **Forms** - Principles for creating non-intimidating user inputs
-3. **Account Creation** - Principles for non-intrusive account creation services
-4. **Support** - Ensuring that the anxious user gets the support they need
+### Forms 
+Principles for creating non-intimidating user inputs
+### Account Creation
+Principles for non-intrusive account creation services
+### Support 
+Ensuring that the anxious user gets the support they need
 
 By gradually working through this guide and ensuring that every mark gets checked off, interface designers can better provide a comfortable experience for their users with anxiety.
