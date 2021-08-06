@@ -14,4 +14,4 @@ DAA is divided into four design categories of focus:
 ### 4. Support 
 *Ensuring that the anxious user gets the support they need*
 
-By gradually working through this guide and ensuring that every mark gets checked off, interface designers can better provide a comfortable experience for their users with anxiety.
+By gradually working through this guide and ensuring that every mark gets checked off, interface designers can provide a comfortable experience for their users with anxiety.
