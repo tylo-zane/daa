@@ -9,4 +9,5 @@ DAA is divided into four design categories of focus:
 2. Forms
 3. Account Creation
 4. Support
+
 By gradually working through this guide and ensuring that every mark gets checked off, interface designers can better provide a comfortable experience for their users with anxiety.
